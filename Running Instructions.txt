@@ -1,0 +1,11 @@
+Build Docker
+
+->$docker build -t autovision:latest .
+->$docker run -d -p 5000:5000 autovision
+
+->$docker stop <container ID>
+
+->$heroku container:login
+->$heroku create <appname> 
+->$heroku container:push web --app <appname>
+->$heroku container:release web --app <appname>
